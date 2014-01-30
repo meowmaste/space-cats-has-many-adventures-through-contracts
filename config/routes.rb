@@ -1,4 +1,10 @@
 SpaceCatsAdventuresThroughContracts::Application.routes.draw do
+  resources :contracts
+
+  resources :adventures
+
+  resources :space_cats
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

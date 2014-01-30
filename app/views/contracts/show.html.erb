@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Space cat:</strong>
+  <%= @contract.space_cat_id %>
+</p>
+
+<p>
+  <strong>Adventure:</strong>
+  <%= @contract.adventure_id %>
+</p>
+
+<%= link_to 'Edit', edit_contract_path(@contract) %> |
+<%= link_to 'Back', contracts_path %>
