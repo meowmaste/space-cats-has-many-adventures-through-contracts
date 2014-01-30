@@ -2,12 +2,12 @@
 
 <p>
   <strong>Space cat:</strong>
-  <%= @contract.space_cat_id %>
+  <%= @contract.space_cat.name %>
 </p>
 
 <p>
   <strong>Adventure:</strong>
-  <%= @contract.adventure_id %>
+  <%= @contract.adventure.location %>
 </p>
 
 <%= link_to 'Edit', edit_contract_path(@contract) %> |

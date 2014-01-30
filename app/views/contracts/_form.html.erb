@@ -12,12 +12,10 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :space_cat_id %><br>
-    <%= f.number_field :space_cat_id %>
+    <%= f.select :space_cat_id, SpaceCat.all.collect { |p| [p.name, p.id] } %>
   </div>
   <div class="field">
-    <%= f.label :adventure_id %><br>
-    <%= f.number_field :adventure_id %>
+    <%= f.select :adventure_id, Adventure.all.collect { |p| [p.location, p.id]} %>
   </div>
   <div class="actions">
     <%= f.submit %>
