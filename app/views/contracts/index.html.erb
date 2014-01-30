@@ -1,6 +1,11 @@
-<h1>Listing Contracts</h1>
 
-<table>
+<h3>Space cats love adventure!</h3>
+<%= image_tag("space_cat.jpg", size: "50%") %>
+<h3> Contract one out to your location today!</h3>
+
+<h3>Listing Contracts:</h3>
+
+<table class="table">
   <thead>
     <tr>
       <th>Space Cat</th>
@@ -25,7 +30,12 @@
 </table>
 
 <br>
-
-<%= link_to 'New Contract?', new_contract_path %>
-<%= link_to 'New Space Cat?', new_space_cat_path %>
-<%= link_to 'New Adventure?', new_adventure_path %>
+<button type="button" class="btn btn-default">
+  <%= link_to 'New Contract?', new_contract_path %>
+</button>
+<button type="button" class="btn btn-default">
+  <%= link_to 'New Space Cat?', new_space_cat_path %>
+</button>
+<button type="button" class="btn btn-default">
+  <%= link_to 'New Adventure?', new_adventure_path %>
+</button>

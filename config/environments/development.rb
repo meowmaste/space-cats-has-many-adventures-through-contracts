@@ -26,6 +26,4 @@ SpaceCatsAdventuresThroughContracts::Application.configure do
   # This option may cause significant delays in view rendering with a large
   # number of complex assets.
   config.assets.debug = true
-  config.reload_classes_only_on_change = false
-  config.middleware.delete Rack::Lock
 end
