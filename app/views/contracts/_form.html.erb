@@ -17,6 +17,10 @@
   <div class="field">
     <%= f.select :adventure_id, Adventure.all.collect { |p| [p.location, p.id]} %>
   </div>
+  <div class="field">
+    <%= f.label :payment %><br>
+    <%= f.text_field :payment %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>

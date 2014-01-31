@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140130211009) do
+ActiveRecord::Schema.define(version: 20140131011615) do
 
   create_table "adventures", force: true do |t|
     t.string   "location"
@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 20140130211009) do
     t.integer  "adventure_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "payment"
   end
 
   create_table "space_cats", force: true do |t|

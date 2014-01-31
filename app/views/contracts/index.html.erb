@@ -10,6 +10,7 @@
     <tr>
       <th>Space Cat</th>
       <th>Adventure</th>
+      <th>Payment</th>
       <th></th>
       <th></th>
       <th></th>
@@ -21,6 +22,7 @@
       <tr>
         <td><%= contract.space_cat.name %></td>
         <td><%= contract.adventure.location %></td>
+        <td><%= contract.payment %></td>
         <td><%= link_to 'Show', contract %></td>
         <td><%= link_to 'Edit', edit_contract_path(contract) %></td>
         <td><%= link_to 'Destroy', contract, method: :delete, data: { confirm: 'Are you sure?' } %></td>
