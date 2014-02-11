@@ -7,3 +7,5 @@ Ruby 2.1.0
 Bootstrap 3
 
 ![ScreenShot](http://imgur.com/IzLeKiB.png)
+
+"This projected is licensed under the terms of the MIT license."
